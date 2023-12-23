@@ -1,0 +1,32 @@
+/* LogDisplay.css */
+
+.log-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.log-header {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.log-list {
+    list-style: none;
+    padding: 0;
+}
+
+.log-item {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual log properties if needed */
+.log-item p {
+    margin: 5px 0;
+}
